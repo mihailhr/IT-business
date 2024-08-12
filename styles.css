@@ -1,11 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
 *{padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
 
+
+/* color palette:
+#dcd7c9 - beige
+#a27b5c - brown
+#3f4e4f - blue */
+
 body{
     width: 100vw;
+    min-height: 100vh;
     overflow-x: hidden;
+    background-color: #dcd7c9;
 }
 
 nav{
@@ -24,6 +34,28 @@ nav ul{
     list-style: none;
 }
 
-nav li{
-    
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 13vh;
+    background-color: #a27b5c;
+}
+footer section{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+footer section ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    list-style-type: none;
+}
+footer a{
+    align-self: center;
 }
