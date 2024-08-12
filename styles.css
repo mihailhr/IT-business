@@ -29,7 +29,16 @@ main article{
     height: 150vh;
     width: 100vw;
 }
-
+.ourServices{
+    background-image: url("./images/scott-graham-5fNmWej4tAA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.joinUs{
+    background-image: url("./images/amina-atar-MA4aW8ZOzLM-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 nav{
     
     display: flex;
