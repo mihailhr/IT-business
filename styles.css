@@ -3,7 +3,9 @@
 *{padding: 0;
 margin: 0;
 box-sizing: border-box;
+color: #dcd7c9;
 }
+
 
 
 /* color palette:
@@ -38,24 +40,52 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 13vh;
+   
+    height: 14vh;
     background-color: #a27b5c;
-}
-footer section{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-footer section ul{
+    color: #3f4e4f;
     display: flex;
     justify-content: space-between;
-    width: 30vw;
-    list-style-type: none;
+    padding: 0px 30px;
+
 }
+
+footer section{
+    margin: 6.5px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
 footer a{
-    align-self: center;
+    
+    text-decoration: none;
+    text-decoration: none;
+}
+.gitIcon{
+    font-size: 80px;
+    
+    border-right: 5px solid #dcd7c9;
+    border-radius: 10px;
+    text-align: end;
+    margin: 6.5px;
+    padding-right: 15px;
+    
+}
+.emailIcon{
+    font-size: 80px;
+    padding-left: 15px;
+    border-left: 5px solid #dcd7c9;
+    border-radius: 10px;
+    text-align: end;
+    margin: 6.5px;
+   
+}
+.emailIcon img{
+    width: 4.7vw;
+    padding-top: 5px;
 }
