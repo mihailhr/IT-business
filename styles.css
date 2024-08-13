@@ -57,7 +57,7 @@ nav{
     justify-content: center;
     background-color: #dcd7c9;
     background: linear-gradient(to bottom, #dcd7c9, rgba(0, 0, 0, 0) 100%);
-    transition:  0.3s ease;
+    transition:  0.1s ease;
     position: fixed;
     top: 0px;
 }

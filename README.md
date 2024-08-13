@@ -1,1 +1,1 @@
-# IT-business
+A simple static website created for learning and demonstrative purposes. 
