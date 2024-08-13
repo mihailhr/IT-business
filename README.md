@@ -1,1 +1,1 @@
-A simple static website created for learning and demonstrative purposes. 
+A simple static website created for learning and demonstrative purposes. Prepared for 1920X1080 resolution.

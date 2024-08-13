@@ -3,7 +3,8 @@
 *{padding: 0;
 margin: 0;
 box-sizing: border-box;
-color: #dcd7c9;
+
+font-family: Arial, Helvetica, sans-serif;
 }
 a{text-transform: uppercase;}
 
@@ -22,15 +23,94 @@ body{
 }
 
 main{
-    background-image: url("./images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+    
     visibility: hidden;
     animation: showContent 3s forwards;
+    height: 100vh;
 }
-main article{
-    height: 150vh;
+main #intro{
+    height: 94vh;
     width: 100vw;
+    background-image: url("./images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main #intro section{
+    color: #dcd7c9;
+    text-align: center;
+    width: 30vw;
+    position: absolute;
+    right: 180px;
+    top: 220px;
+    transform: translateX(-100%); /* Start off-screen to the left */
+    
+    animation: slideIn 2s forwards;
+    
+    background-color: #a27b5c;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+
+main  .info{
+    background-color: #dcd7c9;
+    color: #a27b5c;
+    position: absolute;
+    top: 92vh;
+    z-index: 10;
+    width: 100vw;
+    height: 6vh;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#welcome{
+    
+    
+    color: #a27b5c ;
+    width: 100vw;
+    position: absolute;
+    top: 150px;
+    height: 5vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 350px;
+}
+#welcome h1{
+    width: 50vw;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px  #dcd7c9;
+    
+    animation: slideOut forwards 2s;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    0%{
+        
+        transform: translateY(-80%) ;
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 .ourServices{
     background-image: url("./images/scott-graham-5fNmWej4tAA-unsplash.jpg");
@@ -43,7 +123,7 @@ main article{
     background-repeat: no-repeat;
 }
 .contacts{
-    background-image: url("./images//contact-us-communication-support-service-assistance-concept.jpg");
+    background-image: url("./images/contacts.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -60,6 +140,7 @@ nav{
     transition:  0.1s ease;
     position: fixed;
     top: 0px;
+    z-index: 20;
 }
 nav ul{
     display: flex;
@@ -74,6 +155,7 @@ nav ul{
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-between;
+
     
 }
 nav ul section{
@@ -145,7 +227,7 @@ footer{
    
     height: 14vh;
     background-color: #a27b5c;
-    color: #3f4e4f;
+    color: #dcd7c9;
     display: flex;
     justify-content: space-between;
     padding: 0px 30px;
@@ -153,18 +235,26 @@ footer{
 }
 
 footer section{
+    
     margin: 6.5px;
     font-size: 17px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    
+    gap: 10px;
+}
+footer section a{
+    font-size: 2.5vw;
+   
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 
 footer a{
-    
+    color: #dcd7c9;
     text-decoration: none;
     text-decoration: none;
 }
@@ -177,7 +267,7 @@ footer a{
     margin: 6.5px;
     padding-right: 10px;
     margin-left: 0px;
-    
+    color: #dcd7c9;
 }
 .emailIcon{
     font-size: 80px;
