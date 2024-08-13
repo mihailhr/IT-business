@@ -27,7 +27,7 @@ main{
     
     visibility: hidden;
     animation: showContent 3s forwards;
-    height: 100vh;
+    height: 160vh;
 }
 main #intro{
     height: 94vh;
@@ -51,7 +51,26 @@ main #intro section{
     padding: 20px;
     border-radius: 40px;
 }
+#leftPic{
+    margin-top: 60px;
+    color: #dcd7c9;
+    background-color: #a27b5c;
+    padding: 30px;
+    height: 30vh;
+}
+#leftPic p, #rightPic p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    text-indent: 20px;
+    
+}
 
+#rightPic{
+    color: #a27b5c;
+    padding: 30px;
+    text-align: right;
+}
 
 main  .info{
     background-color: #dcd7c9;
@@ -60,13 +79,19 @@ main  .info{
     top: 92vh;
     z-index: 10;
     width: 100vw;
-    height: 6vh;
+    height: 7vh;
     padding: 30px;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    
+}
+.info p{
+    font-size: 20px;
+    font-weight: 600;
     
 }
 #welcome{
@@ -83,6 +108,20 @@ main  .info{
     align-items: center;
     left: 350px;
 }
+.contacts #contactsIcons{
+    
+    
+    font-size: 120px;
+    color: #dcd7c9;
+    list-style: none;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+#contactIcons li{
+    
+}
+
 #welcome h1{
     width: 50vw;
     text-align: center;
@@ -346,4 +385,11 @@ body.loaded #loader {
     
 }
 
+#number{
+    visibility: hidden;
+}
+
+#phoneInfo:hover #number{
+    visibility: visible;
+}
 
