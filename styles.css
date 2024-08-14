@@ -140,10 +140,78 @@ main  .info{
     }
 }
 .ourServices{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+#backgroundServices{
     background-image: url("./images/scott-graham-5fNmWej4tAA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 84vh;
+    width: 95vw;
+    align-self: center;
+    border-radius: 50px;
 }
+
+#departments{
+
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+#depInfo{
+    display: flex;
+    width: 87vw;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+   
+
+}
+#depIcons{
+    display: flex;
+    width: 87vw;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    
+}
+#depIcons li{
+    
+    text-align: center;
+    background-color: #dcd7c9;
+}
+#depIcons li{
+    width: 25vw;
+    background-color: transparent;
+    color: #dcd7c9;
+    -webkit-text-stroke: 4px #a27b5c;
+    font-size: 65px;
+}
+
+#depInfo li{
+    width: 25vw;
+    padding: 15px;
+    background-color: #a27b5c;
+    color: #dcd7c9;
+    font-weight: 600;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#otherDeps{
+    margin-top: 120px;
+    width: 100vw;
+}
+
 .joinUs{
     background-image: url("./images/amina-atar-MA4aW8ZOzLM-unsplash.jpg");
     background-size: cover;
@@ -163,11 +231,12 @@ nav{
     display: flex;
     justify-content: center;
     background-color: #dcd7c9;
-    background: linear-gradient(to bottom, #dcd7c9, rgba(0, 0, 0, 0) 100%);
-    transition:  0.1s ease;
-    position: fixed;
+    /* background: linear-gradient(to bottom, #dcd7c9, rgba(242, 240, 240, 0) 100%); */
+    transition:  0.1s ease-in;
+    position: absolute;
     top: 0px;
     z-index: 20;
+    height: 14vh;
 }
 nav ul{
     display: flex;
@@ -189,7 +258,7 @@ nav ul section{
     width: 65vw;
     display: flex;
     justify-content: space-between;
-   
+   margin-top: 10px;
 }
 nav ul section a {
     color: #dcd7c9;
@@ -221,32 +290,32 @@ nav ul img:hover{
     0% {
         border-radius: 50% 10% / 10% 50%;
         border-width: 6px;
-        border-color: #dcd7c9;
+        border-color: #a27b5c;
     }
     20% {
         border-radius: 70% 20% / 20% 70%;
         border-width: 6px;
-        border-color: #dcd7c9;
+        border-color: #a27b5c;
     }
     40% {
         border-radius: 30% 50% / 50% 30%;
         border-width: 6px;
-        border-color: #dcd7c9;
+        border-color: #a27b5c;
     }
     60% {
         border-radius: 80% 30% / 30% 80%;
         border-width: 6px;
-        border-color: #dcd7c9;
+        border-color: #a27b5c;
     }
     80% {
         border-radius: 20% 60% / 60% 20%;
         border-width: 6px;
-        border-color: #dcd7c9;
+        border-color: #a27b5c;
     }
     100% {
         border-radius: 50% 10% / 10% 50%;
         border-width: 6px;
-        border-color: #dcd7c9;
+        border-color: #a27b5c;
     }
 }
 
