@@ -1,0 +1,118 @@
+.ourServices {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#backgroundServices {
+    background-image: url("../images/scott-graham-5fNmWej4tAA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 95vw;
+    align-self: center;
+    border-radius: 50px;
+}
+
+#departments {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ourServices p {
+    font-size: 18px;
+}
+
+
+#depInfo {
+    display: flex;
+    width: 87vw;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+
+
+}
+#depInfo #specialService1{
+    background-color: #3f4e4f;
+}
+#otherDeps #specialService2{
+    color: #3f4e4f;
+}
+
+#depIcons {
+    display: flex;
+    width: 87vw;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    
+
+}
+
+
+#depIcons li {
+    text-align: center;
+    background-color: #dcd7c9;
+    color: #3f4e4f;
+    width: 25vw;
+    background-color: transparent;
+    
+    -webkit-text-stroke: 3px #dcd7c9;
+    font-size: 65px;
+}
+
+#depInfo li {
+    width: 25vw;
+    padding: 15px;
+    background-color: #a27b5c;
+    color: #dcd7c9;
+    font-weight: 600;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#otherDeps {
+    margin-top: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #dcd7c9;
+    height: 36vh;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+#otherDeps ul {
+    display: flex;
+    flex-direction: row;
+    width: 87vw;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+
+}
+
+#otherDeps li {
+    width: 25vw;
+    padding: 20px;
+    color: #a27b5c;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 36vh;
+}
+
+#otherDeps i {
+    font-size: 40px;
+}
