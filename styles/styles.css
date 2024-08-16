@@ -154,24 +154,3 @@ footer a {
     text-decoration: none;
 }
 
-.gitIcon {
-    font-size: 80px;
-
-    border-right: 5px solid #dcd7c9;
-    border-radius: 10px;
-    text-align: end;
-    margin: 6.5px;
-    padding-right: 10px;
-    margin-left: 0px;
-    color: #dcd7c9;
-}
-
-.emailIcon {
-    font-size: 80px;
-    padding-left: 15px;
-    border-left: 5px solid #dcd7c9;
-    border-radius: 10px;
-    text-align: end;
-    margin: 6.5px;
-
-}
